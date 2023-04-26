@@ -6,7 +6,8 @@ type FullInputType = {
 }
 export function Fullinput (props: FullInputType) {
     let[message, setMessage] = useState('');
-    // console.log(message);
+    console.log(message);
+    console.log(message);
 
     const onChangeInputHandler = (event: ChangeEvent<HTMLInputElement>) => {
         setMessage(event.currentTarget.value);
@@ -23,6 +24,6 @@ export function Fullinput (props: FullInputType) {
             <input value={message} onChange = {onChangeInputHandler}/>
             <button onClick={onClickButtonHandler}>+</button>
         </div>
-    );
+    )
 };
 
