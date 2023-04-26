@@ -1,3 +1,6 @@
+# I am adding for git 
+This is for git study 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
