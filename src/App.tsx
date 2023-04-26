@@ -7,7 +7,7 @@ import {AppForTheSecondTask} from "./components/insteadApp/AppForTheSecondTask";
 function App() {
     return (
         <div>
-            <InsteadApp/>
+             {/*<InsteadApp/>*/}
             <AppForTheSecondTask/>
         </div>
     );
